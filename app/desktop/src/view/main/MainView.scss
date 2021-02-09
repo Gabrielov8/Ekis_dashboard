@@ -1,0 +1,86 @@
+// sass for New.view.home.MainView
+$main-project-color: #00384D;
+$second-project-color: #005677;
+
+.ekis-icon {
+    background-image: url(/resources/icons/admin-icon.svg);
+}
+
+
+
+//header-menu icons
+.grid-icon {
+    background-image: url(/resources/menu-icons/header-menu-icons/grid.svg);
+}
+
+.star-icon {
+    background-image: url(/resources/menu-icons/header-menu-icons/star.svg);
+}
+
+.magnifer-icon {
+    background-image: url(/resources/menu-icons/header-menu-icons/magnifier.svg);
+    height: 100%;
+}
+
+// main-navigation icons
+
+.admin-icon {
+    background-image: url(/resources/menu-icons/admin-icon.svg);
+    height: 100%;
+}
+
+.advert-icon {
+    background-image: url(/resources/menu-icons/advert.svg);
+    height: 100%;
+}
+
+.form-icon {
+    background-image: url(/resources/menu-icons/form-icon.svg);
+    height: 100%;
+}
+
+.monitoring-icon {
+    background-image: url(/resources/menu-icons/monitoring.svg);
+    height: 100%;
+}
+
+.search-icon {
+    background-image: url(/resources/menu-icons/search.svg);
+    height: 100%;
+}
+
+.server-icon {
+    background-image: url(/resources/menu-icons/server.svg);
+    height: 100%;
+}
+
+.task-icon {
+    background-image: url(/resources/menu-icons/task.svg);
+    height: 100%;
+}
+
+.unloading-icon {
+    background-image: url(/resources/menu-icons/unloading.svg);
+    height: 100%;
+}
+// toolbar 
+.toolbar-icon {
+    background-image: url(/resources/menu-icons/toolbar-icon.svg);
+}
+
+.btn-logout {
+    color: $main-project-color;
+}
+
+
+$treelist-nav-ui: (
+    padding: 20px,
+    treelist-row-indicator-selected-color: white,
+    item-text-color: #d0d4d6,
+    item-text-over-color:white,
+    item-text-font-size: 18px,
+    row-indicator-selected-over-color: white,
+    item-line-height: 50px,
+    item-expander-color: #fff,
+    item-expanded-background-color: $main-project-color,
+)

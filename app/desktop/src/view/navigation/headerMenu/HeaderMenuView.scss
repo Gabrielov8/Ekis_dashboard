@@ -1,0 +1,33 @@
+.header {
+    padding-top: 1em;
+    background-color: $main-project-color;
+    min-height: 20%;
+    p {
+        margin: 0;
+    }
+    &__logo-container {
+        padding: 10px 0;
+        margin-bottom: 15px;
+    }
+    &__text {
+        font-size: 16px;
+        color: white;
+    }
+}
+
+.user {
+    &__name {
+        margin-bottom: 30px;
+    }
+}
+
+.button {
+    background-color: #005677;
+    opacity: .7;
+    &:hover {
+        opacity: 1;
+    }
+    &:active {
+        opacity: 1;
+    }
+}
