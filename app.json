@@ -1,6 +1,6 @@
 {
-  "name": "New",
-  "namespace": "New",
+  "name": "Ekis",
+  "namespace": "Ekis",
   "version": "1.0.0.0",
   "framework": "ext",
   "template": "moderndesktopminimal",
@@ -26,7 +26,7 @@
   "overrides": ["app/${build.id}/overrides"],
 
   "sass": {
-    "namespace": "New",
+    "namespace": "Ekis",
     "etc": [
       "sass/etc/all.scss"
     ],
